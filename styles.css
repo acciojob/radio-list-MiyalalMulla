@@ -1,6 +1,17 @@
 /*  your css code here. If applicable */
-.input:nth-of-type(even) + label {
+/* color every even-numbered radio input red */
+.input:nth-of-type(even) {
   color: red;
 }
+
+/* add spacing between each option */
+form div {
+  margin-bottom: 8px;
+}
+
+label {
+  margin-left: 6px;
+}
+
 
 
